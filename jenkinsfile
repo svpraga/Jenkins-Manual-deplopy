@@ -5,7 +5,6 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository...'
-                echo "Cloning completed"
                 echo "checking after added credentials"
                 echo "checking after added githu api"
                 checkout scm
